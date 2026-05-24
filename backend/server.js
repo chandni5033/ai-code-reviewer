@@ -10,9 +10,6 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: "2mb" }));
 
-app.get("/", (req, res) => {
-  res.send("Backend is running");
-});
 
 const groq = new Groq({
   apiKey: process.env.GROQ_API_KEY,
@@ -578,6 +575,9 @@ app.get("/health", (_, res) => {
 
 // Start server
 
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
 
 app.listen(5000, () => {
 
