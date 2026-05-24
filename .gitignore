@@ -1,0 +1,13 @@
+node_modules/
+.env
+dist/
+build/
+coverage/
+
+frontend/AI-CODE-REVIEWER-FRONTEND/node_modules/
+backend/node_modules/
+
+frontend/AI-CODE-REVIEWER-FRONTEND/dist/
+backend/dist/
+
+.DS_Store
