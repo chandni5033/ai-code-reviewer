@@ -96,6 +96,8 @@ at sub-second inference speed, making real-time PR review possible.
 > AI detecting a critical security bug in a real GitHub PR
 
 ![CodeGuard detecting issues](https://raw.githubusercontent.com/chandni5033/ai-code-reviewer/main/screenshots/s1.png)
+![CodeGuard detecting issues](https://raw.githubusercontent.com/chandni5033/ai-code-reviewer/main/screenshots/s2.png)
+![CodeGuard detecting issues](https://raw.githubusercontent.com/chandni5033/ai-code-reviewer/main/screenshots/s3.png)
 
 ---
 
