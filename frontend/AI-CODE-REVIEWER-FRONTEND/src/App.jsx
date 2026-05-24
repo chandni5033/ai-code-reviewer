@@ -3,7 +3,7 @@ import axios from "axios";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
-const API = "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL;
 
 const SEV_CONFIG = {
   High:   { color: "#ff4d6d", bg: "rgba(255,77,109,0.12)", label: "Critical" },
